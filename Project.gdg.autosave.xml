@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project firstLayout="">
+    <gdVersion build="94" major="4" minor="0" revision="0" />
+    <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" packageName="com.example.gamename" useExternalSourceFiles="false" winExecutableFilename="" winExecutableIconFile="">
+        <name>Project</name>
+        <author></author>
+        <windowWidth>800</windowWidth>
+        <windowHeight>600</windowHeight>
+        <latestCompilationDirectory></latestCompilationDirectory>
+        <maxFPS>60</maxFPS>
+        <minFPS>10</minFPS>
+        <verticalSync>false</verticalSync>
+        <extensions>
+            <extension name="BuiltinObject" />
+            <extension name="BuiltinAudio" />
+            <extension name="BuiltinVariables" />
+            <extension name="BuiltinTime" />
+            <extension name="BuiltinMouse" />
+            <extension name="BuiltinKeyboard" />
+            <extension name="BuiltinJoystick" />
+            <extension name="BuiltinCamera" />
+            <extension name="BuiltinWindow" />
+            <extension name="BuiltinFile" />
+            <extension name="BuiltinNetwork" />
+            <extension name="BuiltinScene" />
+            <extension name="BuiltinAdvanced" />
+            <extension name="Sprite" />
+            <extension name="BuiltinCommonInstructions" />
+            <extension name="BuiltinCommonConversions" />
+            <extension name="BuiltinStringInstructions" />
+            <extension name="BuiltinMathematicalTools" />
+            <extension name="BuiltinExternalLayouts" />
+            <extension name="PathfindingBehavior" />
+            <extension name="TopDownMovementBehavior" />
+            <extension name="TextObject" />
+        </extensions>
+        <platforms>
+            <platform name="GDevelop JS platform" />
+        </platforms>
+        <currentPlatform>GDevelop JS platform</currentPlatform>
+    </properties>
+    <resources>
+        <resources>
+            <resource alwaysLoaded="false" file="GrassDead.png" kind="image" name="GrassDead.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="airplane_top_small.png" kind="image" name="airplane_top_small.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="gold_cup.png" kind="image" name="gold_cup.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="plane_ortho0002.png" kind="image" name="plane_ortho0002.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../../Desktop/start.png" kind="image" name="start.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="use42392.png" kind="image" name="use42392.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="0024.jpg" kind="image" name="0024.jpg" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../../Downloads/gb.jpg" kind="image" name="gb.jpg" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../../Downloads/print_all_over_me_3_t-shirt_0000000p-gaben-2.png" kind="image" name="print_all_over_me_3_t-shirt_0000000p-gaben-2.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../../Downloads/58f76a6984b713aab61d0a0e.png" kind="image" name="58f76a6984b713aab61d0a0e.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../../Downloads/gabe360-14de52edc66.png" kind="image" name="gabe360-14de52edc66.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="../../Downloads/big_1441898853_image.jpg" kind="image" name="big_1441898853_image.jpg" smoothed="true" userAdded="true" />
+        </resources>
+        <resourceFolders />
+    </resources>
+    <objects />
+    <objectsGroups />
+    <variables />
+    <layouts>
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="Nowa_32scena" name="Nowa scena" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.427177" />
+            <objectsGroups />
+            <variables />
+            <instances>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="565.255127" y="627.343750" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="462.455200" y="333.185760" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="373.340942" y="333.907623" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="199.523788" y="49.385735" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="348.230499" y="598.301880" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="752.051453" y="333.023834" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="true" height="63.272339" layer="" locked="false" name="przeciwnik" width="67.727600" x="670.398193" y="498.865723" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="171.908554" layer="" locked="false" name="puchar" width="124.885681" x="552.432251" y="29.726646" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="180.000000" customSize="true" height="69.000000" layer="" locked="false" name="postac" width="75.000031" x="666.739136" y="416.589478" zOrder="4">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Start" width="0.000000" x="581.554321" y="394.273315" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="napis" width="0.000000" x="564.727539" y="221.953293" zOrder="6">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Nowy_obiekt2" width="0.000000" x="-6.596252" y="-2.092438" zOrder="0">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="137.062820" y="68.658081" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="726.982910" y="586.008667" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="616.958130" y="342.549561" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="687.186768" y="333.185730" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="532.683777" y="335.526703" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="640.367676" y="602.395264" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="265.815247" y="24.179993" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="432.022858" y="583.667664" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="279.860962" y="600.054382" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="73.857079" y="56.953293" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="516.297119" y="576.644775" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="282.201935" y="330.844788" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="766.779114" y="412.778137" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="769.119995" y="504.075287" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="61.000000" layer="" locked="false" name="przeszkoda" width="64.000046" x="29.379059" y="21.839027" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+            </instances>
+            <objects>
+                <object name="przeszkoda" type="Sprite">
+                    <variables />
+                    <behaviors>
+                        <behavior cost="2.000000" impassable="true" name="PathfindingObstacle" type="PathfindingBehavior::PathfindingObstacleBehavior" />
+                    </behaviors>
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="print_all_over_me_3_t-shirt_0000000p-gaben-2.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="428.000000" y="410.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="856.000000" y="0.000000" />
+                                                    <vertice x="856.000000" y="820.000000" />
+                                                    <vertice x="0.000000" y="820.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="przeciwnik" type="Sprite">
+                    <variables />
+                    <behaviors>
+                        <behavior acceleration="400.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="180.000000" cellHeight="20" cellWidth="20" extraBorder="0.000000" maxSpeed="200.000000" name="Pathfinding" rotateObject="true" type="PathfindingBehavior::PathfindingBehavior" />
+                    </behaviors>
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="gabe360-14de52edc66.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="282.000000" y="282.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="564.000000" y="0.000000" />
+                                                    <vertice x="564.000000" y="564.000000" />
+                                                    <vertice x="0.000000" y="564.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="puchar" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="gb.jpg">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="320.000000" y="176.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="640.000000" y="0.000000" />
+                                                    <vertice x="640.000000" y="353.000000" />
+                                                    <vertice x="0.000000" y="353.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="postac" type="Sprite">
+                    <variables />
+                    <behaviors>
+                        <behavior acceleration="400.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="180.000000" deceleration="800.000000" ignoreDefaultControls="false" maxSpeed="200.000000" name="TopDownMovement" rotateObject="true" type="TopDownMovementBehavior::TopDownMovementBehavior" />
+                    </behaviors>
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="58f76a6984b713aab61d0a0e.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="750.000000" y="750.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="1500.000000" y="0.000000" />
+                                                    <vertice x="1500.000000" y="1500.000000" />
+                                                    <vertice x="0.000000" y="1500.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Start" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="start.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="44.000000" y="106.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="88.000000" y="0.000000" />
+                                                    <vertice x="88.000000" y="213.000000" />
+                                                    <vertice x="0.000000" y="213.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object bold="false" italic="false" name="napis" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables />
+                    <behaviors />
+                    <string>WYGRAŁEŚ</string>
+                    <font></font>
+                    <characterSize>20</characterSize>
+                    <color b="0" g="0" r="0" />
+                </object>
+                <object name="Nowy_obiekt2" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="big_1441898853_image.jpg">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="640.000000" y="360.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="1280.000000" y="0.000000" />
+                                                    <vertice x="1280.000000" y="720.000000" />
+                                                    <vertice x="0.000000" y="720.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+            </objects>
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="DepartScene" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Cache" />
+                            <parameters>
+                                <parameter>napis</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="PathfindingBehavior::SetDestination" />
+                            <parameters>
+                                <parameter>przeciwnik</parameter>
+                                <parameter>Pathfinding</parameter>
+                                <parameter></parameter>
+                                <parameter>522</parameter>
+                                <parameter>62</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
+                            <parameters>
+                                <parameter>przeciwnik</parameter>
+                                <parameter>puchar</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>napis</parameter>
+                                <parameter>=</parameter>
+                                <parameter>&quot;PRZEGRAŁEŚ&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>napis</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Quit" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
+                            <parameters>
+                                <parameter>postac</parameter>
+                                <parameter>puchar</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>napis</parameter>
+                                <parameter>=</parameter>
+                                <parameter>&quot;WYGRAŁEŚ&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>napis</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Quit" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
+                            <parameters>
+                                <parameter>postac</parameter>
+                                <parameter>przeszkoda</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="TextObject::String" />
+                            <parameters>
+                                <parameter>napis</parameter>
+                                <parameter>=</parameter>
+                                <parameter>&quot;PRZEGRAŁEŚ&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Montre" />
+                            <parameters>
+                                <parameter>napis</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Quit" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions>
+                        <action>
+                            <type inverted="false" value="CentreCamera" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>postac</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="MettreAutour" />
+                            <parameters>
+                                <parameter>Nowy_obiekt2</parameter>
+                                <parameter>postac</parameter>
+                                <parameter>0</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+            </events>
+            <layers>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData>
+                <behaviorSharedData name="Pathfinding" type="PathfindingBehavior::PathfindingBehavior" />
+                <behaviorSharedData name="PathfindingObstacle" type="PathfindingBehavior::PathfindingObstacleBehavior" />
+                <behaviorSharedData name="TopDownMovement" type="TopDownMovementBehavior::TopDownMovementBehavior" />
+            </behaviorsSharedData>
+        </layout>
+    </layouts>
+    <externalEvents />
+    <externalLayouts />
+    <externalSourceFiles />
+</project>
